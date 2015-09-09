@@ -10,8 +10,8 @@ var arr = ['', '', '', '', '', '', '', '', ''];
 function setNames () {
     turnNum = 1;
 // Let users pick name
-    var name1 = prompt("Your Name is:", "Green Thumb");
-    var name2 = prompt("Your Name is:", "Gold Finger");
+    var name1 = alert("Player ONE is 'X' aka Green Thumb");
+    var name2 = alert("Your TWO is 'O' aka Gold Finger");
 
     if (name1 == " " || name1 == null) {
         name1 = "Green Thumb";

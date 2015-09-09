@@ -49,16 +49,16 @@ button {
   -webkit-transform: scale(1.25);
 }
 .X-marker {
-  color: #663366;
+  color: #008d1f;
 }
 .X-marker:before {
-  content: "X";
+  content: url('https://cdn2.iconfinder.com/data/icons/rewards-1/512/thumb_up-128.png');
 }
 .O-marker {
-  color: #CC0033;
+  color: #dddf2b;
 }
 .O-marker:before {
-  content: "O";
+  content: url('goldfinger.png');
 }
 
 .win {
