@@ -1,0 +1,9 @@
+/*Add box sizing */
+html {
+
+}
+/*game css */
+#canvas {
+	width: 500px;
+	height: 500px;
+}
