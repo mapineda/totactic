@@ -1,5 +1,14 @@
 //DEFINE GLOBAL VARS
 
+
+//ASSIGN NAMES AT TOP
+
+var player1Name = document.getElementById('X');
+	player1Name.innerHTML = name1;
+
+var player2Name = document.getElementById('O');
+	player2Name.innerHTML = name2;	
+
 //DEFINE INITIAL FUNCTION
 
 function init() {
