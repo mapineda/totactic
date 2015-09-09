@@ -11,13 +11,13 @@ window.onload = function() {
 var bg = new Image();
 var l = new Image();
 var o = new Image();
-bg.src = './board.png';
-l.src = './one.png';
-o.src = './zero.png';
+bg.src = 'board.png';
+l.src = 'one.png';
+o.src = 'zero.png';
 
 function draw () {
 	c.clearRect(0,0,500,500);
 
-	c.
+	c.drawImage(bg, 0, 0, 500, 500)
 
 };
