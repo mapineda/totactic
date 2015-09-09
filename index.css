@@ -36,3 +36,31 @@ td {
   color: #cccccc;
   -webkit-transition-duration: 200ms;
 }
+
+button {
+
+}
+.current-player {
+  color: black !important;
+  -webkit-transform: scale(1.25);
+}
+.X-marker {
+  color: #663366;
+}
+.X-marker:before {
+  content: "X";
+}
+.O-marker {
+  color: #CC0033;
+}
+.O-marker:before {
+  content: "O";
+}
+
+.win {
+  background-color: green;
+}
+
+.lose {
+background-color: red;
+}
