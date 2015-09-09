@@ -76,11 +76,63 @@ function Title(x, y) {
 		tile.Tile.BLANK
 	}
 
+		// Nought
+		_ctx.fillRect(0, 0, 100, 100);
+
+		_ctx.beginPath();
+		_ctx.arc(50, 50, 30, 0, 2*Math.PI);
+		_ctx.stroke();
+
+		Tile.NOUGHT = new Image();
+		Tile.NOUGHT.src = _c.toDataURL();
+
+		// Cross
+		_ctx.fillRect(0, 0, 100, 100);
+
+		_ctx.beginPath();
+		_ctx.moveTo(20, 20);
+		_ctx.lineTo(80, 80);
+		_ctx.moveTo(80, 20);
+		_ctx.lineTo(20, 80);
+		_ctx.stroke();
+
+		Tile.CROSS = new Image();
+		Tile.CROSS.src = _c.toDataURL();
+
+		tile = Tile.BLANK;
+
+	this.hasData = function() {
+		return tile !== Tile.BLANK;
+	}
+	
+	this.flip = function(next) {
+		tile = next;
+		anim = 1;
+	}	
+
 	this.update = function() {
 
 	}
 
 	this.draw = function(ctx) {
-		ctx.drawImage(tile, x, y);
+		if (anim <= 0) {
+			ctx.drawImage(tile, x, y);
+			return;
+		}
+		var res = 2;
+		var t = anim > 0.5 ? Tile.BLANK : tile;
+		var p = -Math.abs(2*anim - 1) + 1;
+
+		for (var i = 0; i < 100; i += res) {
+
+			var j = 50 - (anim > 0.5 ? 100 - i : i);
+			
+			ctx.drawImage(t, i, 0, res, 100,
+				x + i - p*i + 50*p,
+				y - j*p*0.2,
+				res,
+				100 + j*p*0.4
+			);
+		}
 	}
 }
