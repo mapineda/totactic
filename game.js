@@ -13,7 +13,7 @@ var arr = ['', '', '', '', '', '', '', '', ''];
 
 //ASSIGN NAMES AT TOP
 
-var player1Name = document.getElementById('X');
+var player1Name = document.getElementById('1');
 	player1Name.innerHTML = name1;
 
 var player2Name = document.getElementById('O');
@@ -46,7 +46,7 @@ function init() {
 
     // set a class on the Player X div to indicate that it is the current player and clear any classes set on the Player Y div
 
-   var playerX = document.getElementById('X');
+   var playerX = document.getElementById('1');
    var playerO = document.getElementById('O');
 
     playerX.className = 'current-player';
@@ -61,7 +61,7 @@ function squareClicked(x) {
 
 	turnNum++;
 
-	var playerX = document.getElementById('X');
+	var playerX = document.getElementById('1');
 	var playerO = document.getElementById('O');
 
 	var playerXClass = playerX.className;
@@ -78,31 +78,31 @@ function squareClicked(x) {
     		//push X to array in proper spot
     		switch(clickedEl) {
     			case c0:
-    				arr[0] = 'X';
+    				arr[0] = '1';
     				break;
     			case c1:
-    				arr[1] = 'X';
+    				arr[1] = '1';
     				break;
     			case c2:
-    				arr[2] = 'X';
+    				arr[2] = '1';
     				break;
     			case c3:
-    				arr[3] = 'X';
+    				arr[3] = '1';
     				break;	
     			case c4:
-    				arr[4] = 'X';
+    				arr[4] = '1';
     				break;
     			case c5:
-    				arr[5] = 'X';
+    				arr[5] = '1';
     				break;
     			case c6:
-    				arr[6] = 'X';
+    				arr[6] = '1';
     				break;
     			case c7:
-    				arr[7] = 'X';
+    				arr[7] = '1';
     				break;
     			case c8:
-    				arr[8] = 'X';
+    				arr[8] = '1';
     				break;							
     		}
     	}
@@ -152,7 +152,7 @@ function squareClicked(x) {
 
     	//check for win
     	if (turnNum >= 5) {
-    		winArrays('X');
+    		winArrays('1');
     		winArrays('O');
     	}
 
