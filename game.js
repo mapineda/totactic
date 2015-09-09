@@ -1,23 +1,37 @@
-// define canvas var
-var c, canvas;
-// insert window onload function
-window.onload = function() {
-	canvas = document.getElementById('canvas');
-	c = canvas.getContext('2d')//method of every document of canvas element
+//define global var
+var canvas, ctx;
+// window onload
+window.onload = function main () {
 
-	draw();
+	canvas = document.createElement('canvas');
+	ctx = canvas.getContext('2d');
+
+	document.body.appendChild(canvas);
+
+	init();
+	tick();
+
 }
-//create image variables
-var bg = new Image();
-var l = new Image();
-var o = new Image();
-bg.src = 'board.png';
-l.src = 'one.png';
-o.src = 'zero.png';
 
-function draw () {
-	c.clearRect(0,0,500,500);
+function init() {
 
-	c.drawImage(bg, 0, 0, 500, 500)
+}
 
-};
+function tick() {
+	window.requestAnimationFrame(tick);
+
+	update();
+	render();
+}
+
+function update() {
+
+}
+
+function render() {
+
+}
+
+function Title(x,y) {
+	var x=x. y=y;
+}
