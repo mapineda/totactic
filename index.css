@@ -1,7 +1,4 @@
 /*Add box sizing */
-html {
-
-}
 /*game css */
 canvas {
 	width: 500px;
@@ -9,8 +6,15 @@ canvas {
 	border: 1px solid #000;
 	position: absolute;
 	margin: auto;
+/*	center the canvas */
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+/*tile css*/
+_c {
+	width: 125px;
+	height: 125px;
 }
