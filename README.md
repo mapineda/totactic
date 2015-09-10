@@ -1,6 +1,6 @@
 # ToTacTic
 Fun Futuristic Strategy Game of 1s and 0s.
-find the game at marcopineda.com/game/index.html
+Find the game [@] marcopineda.com/game/index.html
 		
 <h2>WHY?</h2>
 The best ToTacTic game in the world. A strategy game of 1s and 0s.
@@ -16,28 +16,28 @@ Master - Public Release (stable)
 Unless specified in the file, ToTacTic's code and resources are now licensed under the MIT License.
 		
 <h2>INSTALLATION</h2>
-	<pre>
-		<code>
 		"cd ~/
 		git clone git://github.com/mapineda/totactic.git
 		cd totactic
 		index.html
 		"
-		</code>
-	</pre>
 		
 <h2>NOTE</h2>
-	<p>First Project for General Assembly WDI-ATX-PROJECT.</p>
+First Project for General Assembly WDI-ATX-PROJECT.
 
 <h2>METHOD</h2>
-	<h3>Flow Control</h3>
-	<ul> 
-		<li>Create FC branch</li> // FC = Flow Control
-		<li>BranchSet Project Tracking via <a href="#">Trello</a></li>
-		<li>Create WireFrame</li>
-	</ul>
+Flow Control
+- Create FC branch
+-Set Project Tracking via Trello
+-Create WireFrame
+
+<h2>ISSUES</h2>
+
+Having issues hosting with heroku. Specifically, installing necessary bundles and packages.
+
 
 		
 <h2>CONTACT</h2>
 marco@marcopineda.com
+
 
