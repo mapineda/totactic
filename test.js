@@ -173,14 +173,14 @@ function squareClicked(x) {
 
         // draw
         if (turnNum >= 10 && winArrays() == false) {
-            alert("It's a draw!");
-            newGame();
+            swal("Tie", "Improve your hand skills.", "error");
+            // newGame();
         }
 
     }
 
     else {
-        alert("Already taken. Try another");
+        swal("Already Conquered", "Try Another Tile");
     }
 
     console.log(numDiv);
@@ -246,7 +246,7 @@ function winArrays(marker) {
             }
         }
 
-        if (confirm(marker + ' has won!\nNew game?') == true) {
+        if (swal(marker + ' has won!\nNew game?') == true) {
             newGame();
         }
 
