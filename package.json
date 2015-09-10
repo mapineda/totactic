@@ -1,0 +1,38 @@
+{
+  "name": "totactic",
+  "version": "1.0.0",
+  "description": "futuristic strategy game",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+  "node": "0.12.7"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapineda/totactic.git"
+  },
+  "keywords": [
+    "strategy",
+    "game",
+    "javascript",
+    "js",
+    "html",
+    "css",
+    "ga",
+    "general",
+    "assembly"
+  ],
+  "author": "z3o3r0r1o",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapineda/totactic/issues"
+  },
+  "homepage": "https://github.com/mapineda/totactic#readme"
+}
+
+"engines": {
+  "node": "0.12.7"
+}
