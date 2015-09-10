@@ -4,6 +4,7 @@ body {
   font-family: 'Gill Sans Extrabold', Helvetica, sans-serif;
 }
 table {
+/*add hand cursor 	*/
   cursor: pointer;
   cursor: hand;	
   margin-left:auto; 
@@ -29,16 +30,25 @@ td {
   -moz-webkit-border-radius: 10px;
 
 }
+#X {
+	color: #4D7957;
+	font-weight: bold;
+}
 
-#players {
+#O {
+	color: #D4AF37;
+	font-weight: bold;
+}
+#players { 	
+  display: inline;
   margin-left:auto; 
   margin-right:auto;
   padding: 20px 10px 10px 10px;
   width: 511px; 
-  text-align: left;
+ /* text-align: left;*/
 }
 #players > div {
-  display: inline-block;
+  display: inline;
   padding-right: 25px;
   color: #cccccc;
   -webkit-transition-duration: 200ms;
