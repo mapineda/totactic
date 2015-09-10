@@ -9,9 +9,12 @@ var arr = ['', '', '', '', '', '', '', '', ''];
 
 function setNames () {
     turnNum = 1;
+// Player Alerts
+swal({   title: "Green Thumb VS Gold Finger!",   text: "Battle of the Eons",  imageUrl: "https://lh4.ggpht.com/uKgF6DDOl-fOCaJLy9JUQdwVI3VF7SL8nSvJE9aP86O9fdP0jn-2Mg9lABOS6zfOwA=w300", animation: false, timer: 4000}); 
+
 // Let users pick name
-    var name1 = alert("Player ONE is 'X' aka Green Thumb");
-    var name2 = alert("Your TWO is 'O' aka Gold Finger");
+    var name1 = " ";
+    var name2 = " ";
 
     if (name1 == " " || name1 == null) {
         name1 = "Green Thumb";

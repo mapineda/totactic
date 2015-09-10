@@ -30,6 +30,7 @@ td {
   -moz-webkit-border-radius: 10px;
 
 }
+/*Player*/
 #X {
 	color: #4D7957;
 	font-weight: bold;
@@ -39,6 +40,7 @@ td {
 	color: #D4AF37;
 	font-weight: bold;
 }
+
 #players { 	
   display: inline;
   margin-left:auto; 
@@ -59,7 +61,7 @@ button {
 
 }
 .current-player {
-  color: black !important;
+  color: none !important;
   -webkit-transform: scale(1.25);
   -moz-webkit-transform: scale(1.25);
 }
@@ -82,4 +84,9 @@ button {
 
 .lose {
 background-color: red;
+}
+
+footer {
+	margin-top: 50%;
+	margin-bottom: 10%;
 }
