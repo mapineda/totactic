@@ -10,6 +10,7 @@ table {
   margin-right:auto; 
 
   -webkit-user-select: none;
+  -moz-webkit-user-select: none;
   max-width:100%;
   height:auto;
 }
@@ -25,6 +26,8 @@ td {
   font-size: 50px;
   border: 2px solid #cccccc;
   -webkit-border-radius: 10px;
+  -moz-webkit-border-radius: 10px;
+
 }
 
 #players {
@@ -39,6 +42,7 @@ td {
   padding-right: 25px;
   color: #cccccc;
   -webkit-transition-duration: 200ms;
+  -moz-webkit-transition-duration: 200ms;
 }
 
 button {
@@ -47,6 +51,7 @@ button {
 .current-player {
   color: black !important;
   -webkit-transform: scale(1.25);
+  -moz-webkit-transform: scale(1.25);
 }
 .X-marker {
   color: #008d1f;

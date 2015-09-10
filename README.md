@@ -28,8 +28,8 @@ First Project for General Assembly WDI-ATX-PROJECT.
 <h2>METHOD</h2>
 Flow Control
 - Create FC branch
--Set Project Tracking via Trello
--Create WireFrame
+- Set Project Tracking via Trello [@] https://trello.com/b/NXo3Wl0p/ga-game-project
+- Create WireFrame
 
 <h2>ISSUES</h2>
 
