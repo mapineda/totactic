@@ -9,7 +9,7 @@ The best ToTacTic game in the world. A strategy game of 1s and 0s.
 Source code for ToTacTic, the futuristic strategy game of 1s and 0s by Marco Pineda.
 		
 <h2>BRANCHES</h2>
-<a href ="#>">Master</a> - Public Release (stable)
+Master - Public Release (stable)
 		
 		
 <h2>LICENSE</h2>
