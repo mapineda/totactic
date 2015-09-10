@@ -9,46 +9,64 @@
 		<!-- insert links to style sheets -->
 		<link rel = "stylesheet" type = "text/css" href = "grid.css">
 		<link rel = "stylesheet" type = "text/css" href = "index.css">
+		<link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+		<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
 	<!-- jquery script -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="dist/sweetalert.min.js"></script>
 	</head>
 	<body onload = 'init();'>
 	<!-- Whole Page Container -->
-		<h2>Toe&bull;Tac&bull;Tic</h2>
-		<div class = "container">
-			<!-- canvas for the game -->
-		<div id = "players">
-			<div id = 'X' class = ''>Green Thumb</div>
-			<div id = 'O' class = ''>Gold Finger</div>
-			<button type = 'submit' class = 'btn btn-default' onclick = 'newGame();'>RESET</button>
+	<div class = 'container wrapper'>
+	<!-- 	GAME TITLE CONTAINER -->
+		<div class = 'container col-lg-12 h' >
+			<h2>Toe&bull;Tac&bull;Tic</h2>
 		</div>	
-		
-		<table>
-			<tbody>
-			  	<tr>
-			    	<td id = "c0"></td>
-			    	<td id = "c1"></td>
-			    	<td id = "c2"></td>
-			  	</tr>
-			  	<tr>
-			    	<td id = "c3"></td>
-			    	<td id = "c4"></td>
-			    	<td id = "c5"></td>
-			  	</tr>
-			  	<tr>
-			  		<td id = "c6"></td>
-			    	<td id = "c7"></td>
-			    	<td id = "c8"></td>
-			  	</tr>
-		  </tbody>
-		</table>	
-		<!-- <div>
+		<div class = "container col-lg-12 pnav">
+			<!-- player nav  -->
+			<div id = "players ">
+				<div id = 'X' class = ''> Player 1 : Green Thumb</div>
+				<div id = 'O' class = ''>Player 2 : Gold Finger</div>
+			</div>
+		</div>
+		<!-- container for game board -->
+		<div class = 'container board col-lg-12 pull-center' >	
+			<!-- table for the game -->
+			<table class = 'table table-responsive'>
+				<tbody>
+				  	<tr class = 'table-striped'>
+				    	<td id = "c0"></td>
+				    	<td id = "c1"></td>
+				    	<td id = "c2"></td>
+				  	</tr>
+				  	<tr>
+				    	<td id = "c3"></td>
+				    	<td id = "c4"></td>
+				    	<td id = "c5"></td>
+				  	</tr>
+				  	<tr>
+				  		<td id = "c6"></td>
+				    	<td id = "c7"></td>
+				    	<td id = "c8"></td>
+				  	</tr>
+			  </tbody>
+			</table>
+		</div>	
+		<div class = 'container col-lg-12'>
+			<!-- RESET BUTTON -->
 			<button type = 'submit' class = 'btn btn-default' onclick = 'newGame();'>RESET</button>
-		</div> -->
+		</div>
+		<div class = 'container col-lg-12'>
+			<footer id = 'footer'>
+				<p class = 'fcopy'> Copyright &copy; 2015 Pineda Holdings, LLC </p>
+			</footer>
 		</div>
 
-		<footer></footer>
+	<!-- end of page container -->	
+	</div>
+
 		<!-- insert javascript file -->
-		<script type="text/javascript" src="test.js"></script>
+		<script type = "text/javascript" src = "test.js"></script>
 	</body>
 </html>

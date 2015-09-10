@@ -1,9 +1,35 @@
-body {
+body {	
   text-align: center;
   font-size: 16px;
   font-family: 'Gill Sans Extrabold', Helvetica, sans-serif;
 }
+
+/*WRAPPER SETTINGS*/
+.wrapper {
+ /* background-image: url('bgt.jpg');	*/
+}
+
+/*GAME TITLE SETTINGS*/
+.h {
+	margin: 20px, auto;
+	/*background-color: #efe9db;*/
+}
+
+
+h2 {
+	font-family: 'VT323', ;
+	padding-bottom: 10px;
+}
+
+/*PLAYER NAVIGATION SETTINGS*/
+
+.pnav {
+	margin: 10px;
+}
+
+
 table {
+/*add hand cursor 	*/
   cursor: pointer;
   cursor: hand;	
   margin-left:auto; 
@@ -25,17 +51,34 @@ td {
   text-align: center;
   font-size: 50px;
   border: 2px solid #cccccc;
-  -webkit-border-radius: 10px;
-  -moz-webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 50px;
+  -moz-webkit-border-radius: 50px;
+
+}
+/*Player*/
+#X {
+	color: #4D7957;
+	font-weight: bold;
+}
+
+#O {
+	color: #D4AF37;
+	font-weight: bold;
+}
+
+.board {
+	margin-top: 20px;
 
 }
 
-#players {
+#players { 	
+  display: inline-block;
   margin-left:auto; 
   margin-right:auto;
   padding: 20px 10px 10px 10px;
   width: 511px; 
-  text-align: left;
+ /* text-align: left;*/
 }
 #players > div {
   display: inline-block;
@@ -46,12 +89,15 @@ td {
 }
 
 button {
+	font-family: 'VT323', ;
+	font-weight: bold;
+	
 
 }
 .current-player {
-  color: black !important;
-  -webkit-transform: scale(1.25);
-  -moz-webkit-transform: scale(1.25);
+  color: none !important;
+  -webkit-transform: scale(2.0);
+  -moz-webkit-transform: scale(2.0);
 }
 .X-marker {
   color: #008d1f;
@@ -72,4 +118,13 @@ button {
 
 .lose {
 background-color: red;
+}
+
+footer {
+	margin-top: 50%;
+	margin-bottom: 10%;
+}
+
+p {
+	font-family: 'VT323', ;
 }
