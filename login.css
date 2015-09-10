@@ -1,3 +1,16 @@
 .wrapper {
-	background-image: url(http://acritica.uol.com.br/vida/biossensores-sincronizados-aplicativo-conjugado-smartphone_ACRIMA20140127_0025_15.jpg);  
+	background-image: url(http://techyounme.areavoices.com/files/2013/08/shutterstock_68.d2011121736.original.jpg);  
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+
+h2 {
+	text-align: center;
+}
+
+footer {
+	margin-top: 50%;
+	margin-bottom: 2%;
 }

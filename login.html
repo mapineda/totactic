@@ -8,16 +8,25 @@
 	<!-- 	RELEVANT LINK -->
 		<link rel = "stylesheet" type = "text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="login.css">
 		<!-- insert script files  -->
-		<script type="text/javascript" src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-		
+		<script type="text/javascript" src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>		
 	</head>
 
 	<body>
 <!-- WHOLE PAGE WRAPPER -->
-		<div class = 'container wrapper'>
+		<div class = 'container wrapper col-lg-12 pull-center'>
+			<div class = 'log'>
+				<h2>Welcome</h2>
+			</div>
+			<div class = 'inp col-lg-12'>
+				<input type = 'email' class = 'form-control' id = 'inputemail' placeholder = 'johndoe@gmail.com'>
+			</div>
+			<div class = 'btn'>
+				<button type = 'submit' class = 'btn btn-primary text-center' id = 'btn' onclick = "location.href = 'http://marcopineda.com/game/index.html';">Submit</button>
+			</div>
 			
-<!-- 		FOOTER  -->
+<!-- FOOTER  -->
 			<div class = 'container col-lg-12'>
 				<footer id = 'footer'>
 					<p class = 'fcopy'> Copyright &copy; 2015 Pineda Holdings, LLC </p>
